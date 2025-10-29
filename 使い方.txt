@@ -1,0 +1,60 @@
+================================================================
+  画像変換ツール - 使い方
+================================================================
+
+■ 使い方（3ステップ）
+
+  1. simple_converter.bat をダブルクリック
+  
+  2. メニューで「1」を選択してEnter
+  
+  3. 画像ファイルをドラッグ&ドロップしてEnter
+  
+  4. フォーマットを選択（1〜4）してEnter
+  
+  5. 完了！（2秒後にメニューに戻ります）
+
+
+■ 出力フォーマット
+
+  [1] JPG 95% - 高品質（印刷用）
+  [2] JPG 85% - 標準（おすすめ）
+  [3] PNG - 最適化（透明度保持）
+  [4] WebP 90% - 高品質・小サイズ
+
+
+■ 対応形式
+
+  入力: WebP, PNG, AVIF, TIFF, HEIC, BMP, GIF, JPEG
+  出力: JPG, PNG, WebP
+
+
+■ 保存場所
+
+  単一ファイル: 元のファイルと同じ場所
+                （ファイル名_converted.jpg）
+  
+  複数ファイル: 元のフォルダ内の converted_jpg フォルダ
+
+
+■ 必要な環境
+
+  - Python 3.7以降
+  - Pillow, pillow-heif
+  
+  Pythonのインストール: https://www.python.org/downloads/
+  ※「Add Python to PATH」にチェック必須！
+  
+  ライブラリのインストール:
+  python -m pip install Pillow pillow-heif
+
+
+■ エラーが出たら
+
+  コマンドプロンプトで:
+  python -m pip install --upgrade pip
+  python -m pip install Pillow pillow-heif
+
+
+詳しくは README_ja.md をご覧ください
+================================================================
